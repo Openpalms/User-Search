@@ -1,0 +1,75 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  opacity: 0;
+  pointer-events: none;
+}
+.active {
+  opacity: 1;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  pointer-events: all;
+}
+.content {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  width: 600px;
+  height: 600px;
+}
+.wrap {
+  display: flex;
+  position: relative;
+}
+.data {
+  margin-top: 20px;
+  position: absolute;
+  right: 0;
+  font-size: 10px;
+}
+.tag {
+  font-weight: bold;
+  font-size: 15px;
+}
+.additional {
+  font-size: 10px;
+  word-wrap: break-word;
+}
+.cross {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.cross:hover {
+  opacity: 1;
+}
+.cross:before,
+.cross:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.cross:before {
+  transform: rotate(45deg);
+}
+.cross:after {
+  transform: rotate(-45deg);
+}

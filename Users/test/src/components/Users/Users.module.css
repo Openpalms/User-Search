@@ -1,0 +1,39 @@
+.card:hover {
+  box-shadow: 20px 15px 15px 10px rgb(155, 155, 155);
+}
+.card {
+  line-height: 1.5;
+  font-size: 0.9em;
+  padding: 15px;
+  background: #fafafa;
+  border-radius: 20px;
+}
+
+.username {
+  padding-top: 5px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.phone {
+  color: gray;
+  font-size: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.phoneimg {
+  max-height: 15px;
+  max-width: 15px;
+  padding-right: 5px;
+}
+.mail {
+  color: gray;
+  font-size: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.mailimg {
+  max-height: 20px;
+  max-width: 20px;
+  padding-right: 5px;
+}

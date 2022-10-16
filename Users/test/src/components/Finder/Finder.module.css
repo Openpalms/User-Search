@@ -1,0 +1,20 @@
+.wrapper {
+  margin: 0 auto;
+  width: 55%;
+  padding: 10px;
+}
+.search {
+  font-size: 30px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: none;
+  width: 55vw;
+  height: 40px;
+  border: 0.5px solid grey;
+  border-radius: 50px;
+  background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 30px;
+}

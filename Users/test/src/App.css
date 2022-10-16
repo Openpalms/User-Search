@@ -1,0 +1,18 @@
+html {
+  background-color: #efefef;
+}
+.cards {
+  /* display: inline-block;
+  margin: 20px 0 0 20px;
+  padding: 0 20px 0 20px;
+  width: 15%; */
+  cursor: pointer;
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  grid-auto-rows: auto;
+  gap: 20px;
+  font-family: sans-serif;
+  padding-top: 30px;
+}
