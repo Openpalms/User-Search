@@ -1,5 +1,4 @@
 import s from './Users.module.css';
-import Popup from '../Popup/Popup';
 
 const User = (props) => {
   return (
@@ -19,7 +18,7 @@ const User = (props) => {
         );
       }}
     >
-      <div class="card">
+      <div className="card">
         <div className={s.card}>
           <h1 className={s.username}>{props.username}</h1>
           <h3 className={s.phone}>

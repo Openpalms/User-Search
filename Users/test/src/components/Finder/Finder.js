@@ -12,7 +12,6 @@ const Finder = (props) => {
             props.setQuery(e.target.value);
           }}
         />
-        <span></span>
       </div>
     </div>
   );
